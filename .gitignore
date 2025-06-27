@@ -1,0 +1,17 @@
+# Node, VSCode, sistema e Docker
+node_modules/
+dist/
+.vscode/
+.DS_Store
+*.log
+.env
+*.env.*
+*.local
+*.bak
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Docker
+**/app/
+!app/index.html

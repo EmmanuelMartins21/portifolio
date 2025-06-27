@@ -1,0 +1,142 @@
+/* Paleta: branco, azul, cinza */
+:root {
+  --color-bg: #f9fafb;
+  --color-white: #fff;
+  --color-blue: #2563eb;
+  --color-blue-light: #3b82f6;
+  --color-gray: #6b7280;
+  --color-gray-light: #e5e7eb;
+  --color-gray-dark: #374151;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-gray-dark);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: var(--color-white);
+  box-shadow: 0 2px 8px rgba(37,99,235,0.04);
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-blue);
+  letter-spacing: 0.5px;
+}
+.subtitle {
+  font-size: 1rem;
+  color: var(--color-gray);
+  margin-top: 0.1rem;
+}
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav a {
+  color: var(--color-gray-dark);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background 0.2s, color 0.2s;
+}
+.nav a:hover, .nav a:focus {
+  background: var(--color-blue-light);
+  color: var(--color-white);
+  outline: none;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.06);
+  margin-bottom: 2rem;
+  padding: 2rem 1.5rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-blue);
+  margin-top: 0;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--color-blue-light);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--color-blue);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: var(--color-blue-light);
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+  section {
+    padding: 1rem 0.5rem;
+  }
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .nav {
+    gap: 1rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.95rem;
+  }
+}
