@@ -50,6 +50,33 @@ document.getElementById('projects').innerHTML = `
   <h2>Projetos</h2>
   <div style="display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));">
     <div class="project-card">
+      <h3>Gerador de apostas para Lotofácil</h3>
+      <p>Aplicação web responsiva para geração de apostas numéricas, consumindo uma API segura em .NET. Cria combinações automaticamente com regras heurísticas e interface moderna.</p>
+      <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+        <a href="https://aposta-web.vercel.app/" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">Ver Site</a>
+        <a href="https://github.com/EmmanuelMartins21/aposta-web" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">GitHub</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <h3>Visão Astro - Imagem do Dia</h3>
+      <p>Aplicação React que exibe diariamente a Imagem do Dia (APOD) da NASA com atualização automática, exibindo foto ou vídeo astronômico com título e data.</p>
+      <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+        <a href="https://visao-astro-diaria.vercel.app/" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">Ver Site</a>
+        <a href="https://github.com/EmmanuelMartins21/VisaoAstroDiaria" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">GitHub</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <h3>FreteAPI</h3>
+      <p>API REST para cálculo de frete baseado na distância entre origem e destino, utilizando rotas reais com OSRM.</p>
+      <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+        <a href="https://freteapi.onrender.com/scalar/" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">Documentação</a>
+        <a href="https://github.com/EmmanuelMartins21/FreteAPI" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">GitHub</a>
+      </div>
+    </div>
+    
+    <div class="project-card">
       <h3>App Mobile de foco</h3>
       <p>Aplicativo mobile para gerenciamento de tempo, desenvolvido em ReactNative com Expo.</p>
       <a href="https://github.com/EmmanuelMartins21/app-foco-tarefa" target="_blank">Ver no GitHub</a>
