@@ -87,6 +87,13 @@ document.getElementById('projects').innerHTML = `
       <p>APP de estudo sobre o .NET MAUI, sem proposito especifico</p>
       <a href="https://github.com/EmmanuelMartins21/app-maui-estudo" target="_blank">Ver no GitHub</a>
     </div>
+
+     <div class="project-card">
+      <h3>LeitorPDF</h3>
+      <p>Aplicação muitiplataforma de leitura de PDF, que permite a escoha de um pdf e tranforma o texto do mesmo em voz. Desenvolvida em .NET MAUI</p>
+      <a href="https://github.com/EmmanuelMartins21/LeitorPdfApp" target="_blank">Ver no GitHub</a>
+      <a href="https://github.com/EmmanuelMartins21/LeitorPdfApp/releases/download/v1.0%2Cbeta/LeitorPDF_V1.0.beta.zip" target="_blank" class="btn" style="padding:0.5rem 1rem;font-size:0.9rem;">Download</a>
+    </div>
   </div>
 `;
 
